@@ -1,0 +1,17 @@
+<archetype>
+<id>my-archetype</id>
+<testSources>
+<source>src/test/java/DebugAppender.java</source>
+<source>src/test/java/Driver.java</source>
+<source>src/test/java/Resources.java</source>
+<source>src/test/java/View.java</source>
+<source>src/test/java/glue/main/MainSteps.java</source>
+<source>src/test/java/run/RunMain.java</source>
+<source>src/test/java/views/MainView.java</source>
+</testSources>
+<testResources>
+<resource>src/test/resources/features/main.feature</resource>
+<resource>src/test/resources/log4j.xml</resource>
+<resource>src/test/resources/main.properties</resource>
+</testResources>
+</archetype>

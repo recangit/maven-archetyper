@@ -1,0 +1,6 @@
+<archetype>
+<id>my-archetype</id>
+<Sources>
+    <source>src/main/java/Mojo.java</source>
+</Sources>
+</archetype>

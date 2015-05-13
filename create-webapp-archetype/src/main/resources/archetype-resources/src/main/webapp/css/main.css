@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(250, 250, 250);
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+table {
+    border: 1px solid #CCCCCC;
+    background-color: rgb(247, 247, 247);
+    border-collapse: collapse;
+    color: #333333;
+}
+
+th, td {
+    padding: 4px 40px;
+}
+
+table.mainCanvas {
+    margin: 10px auto;
+    width: 90%;
+}

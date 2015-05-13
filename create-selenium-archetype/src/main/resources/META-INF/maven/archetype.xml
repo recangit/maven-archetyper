@@ -1,0 +1,37 @@
+<archetype>
+<id>my-archetype</id>
+<sources>
+    <source>src/main/java/se/recan/framework/selenium/BasePO.java</source>
+    <source>src/main/java/se/recan/framework/selenium/DriverFactory.java</source>
+    <source>src/main/java/se/recan/framework/selenium/PageRepo.java</source>
+    <source>src/main/java/se/recan/framework/utils/DebugAppender.java</source>
+    <source>src/main/java/se/recan/framework/utils/FormatedAppender.java</source>
+    <source>src/main/java/se/recan/framework/utils/Helper.java</source>
+    <source>src/main/java/se/recan/framework/utils/MyLogger.java</source>
+    <source>src/main/java/se/recan/framework/utils/PrintUtil.java</source>
+    <source>src/main/java/se/recan/framework/utils/Props.java</source>
+    <source>src/main/java/se/recan/framework/utils/ScreenShot.java</source>
+    <source>src/main/java/se/recan/framework/utils/WaitUtil.java</source>
+ </sources>
+
+ <resources>
+	<resource>docs/main.css</resource>
+	<resource>docs/person.html</resource>
+</resources>
+
+<testSources>
+<source>src/test/java/se/recan/framework/person/PersonTest.java</source>
+<source>src/test/java/se/recan/framework/person/SLTest.java</source>
+<source>src/test/java/se/recan/framework/po/PersonPO.java</source>
+</testSources>
+<source>src/test/java/se/recan/framework/selenium/SelectorTest.java</source>
+<source>src/test/java/se/recan/framework/utils/LoggerTest.java</source>
+<source>src/test/java/se/recan/framework/utils/ManageWindowTest.java</source>
+<source>src/test/java/se/recan/framework/utils/WaitUtilTest.java</source>
+</testSources>
+
+<testResources>
+<resource>src/test/resources/config.properties</resource>
+<resource>src/test/resources/log4j.xml</resource>
+</testResources>
+</archetype>

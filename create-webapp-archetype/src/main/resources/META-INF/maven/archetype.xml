@@ -1,0 +1,23 @@
+<archetype>
+    <id>my-archetype</id>
+    <sources>
+        <source>src/main/java/Resources.java</source>
+        <source>src/main/java/servlets/Controller.java</source>
+    </sources>
+
+    <resources>
+        <resource>src/main/resources/log4j.xml</resource>
+        <resource>src/main/resources/main.properties</resource>
+        <resource>src/main/webapp/WEB-INF/web.xml</resource>
+        <resource>src/main/webapp/css/main.css</resource>
+        <resource>src/main/webapp/index.jsp</resource>
+    </resources>
+
+    <testSources>
+        <source>src/test/java/AppTest.java</source>
+    </testSources>
+
+    <testResources>
+        <resource>src/test/resources/test.properties</resource>
+    </testResources>
+</archetype>
